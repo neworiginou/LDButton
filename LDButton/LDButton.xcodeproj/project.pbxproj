@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02166BBD1AB529A7008CFD2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02166BBC1AB529A7008CFD2D /* main.m */; };
+		02166BC01AB529A7008CFD2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02166BBF1AB529A7008CFD2D /* AppDelegate.m */; };
+		02166BC31AB529A7008CFD2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02166BC21AB529A7008CFD2D /* ViewController.m */; };
+		02166BC61AB529A7008CFD2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02166BC41AB529A7008CFD2D /* Main.storyboard */; };
+		02166BC81AB529A7008CFD2D /*  image.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02166BC71AB529A7008CFD2D /*  image.xcassets */; };
+		02166BCB1AB529A7008CFD2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 02166BC91AB529A7008CFD2D /* LaunchScreen.xib */; };
+		02166BD71AB529A7008CFD2D /* LDButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 02166BD61AB529A7008CFD2D /* LDButtonTests.m */; };
+		02166BE21AB529F0008CFD2D /* LDButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 02166BE11AB529F0008CFD2D /* LDButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02166BD11AB529A7008CFD2D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02166BAF1AB529A7008CFD2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02166BB61AB529A7008CFD2D;
+			remoteInfo = LDButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02166BB71AB529A7008CFD2D /* LDButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02166BBB1AB529A7008CFD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02166BBC1AB529A7008CFD2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02166BBE1AB529A7008CFD2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02166BBF1AB529A7008CFD2D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02166BC11AB529A7008CFD2D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02166BC21AB529A7008CFD2D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02166BC51AB529A7008CFD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02166BC71AB529A7008CFD2D /*  image.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = " image.xcassets"; sourceTree = "<group>"; };
+		02166BCA1AB529A7008CFD2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		02166BD01AB529A7008CFD2D /* LDButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LDButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		02166BD51AB529A7008CFD2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02166BD61AB529A7008CFD2D /* LDButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDButtonTests.m; sourceTree = "<group>"; };
+		02166BE01AB529F0008CFD2D /* LDButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LDButton.h; sourceTree = "<group>"; };
+		02166BE11AB529F0008CFD2D /* LDButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02166BB41AB529A7008CFD2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02166BCD1AB529A7008CFD2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02166BAE1AB529A7008CFD2D = {
+			isa = PBXGroup;
+			children = (
+				02166BB91AB529A7008CFD2D /* LDButton */,
+				02166BD31AB529A7008CFD2D /* LDButtonTests */,
+				02166BB81AB529A7008CFD2D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02166BB81AB529A7008CFD2D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02166BB71AB529A7008CFD2D /* LDButton.app */,
+				02166BD01AB529A7008CFD2D /* LDButtonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02166BB91AB529A7008CFD2D /* LDButton */ = {
+			isa = PBXGroup;
+			children = (
+				02166BE01AB529F0008CFD2D /* LDButton.h */,
+				02166BE11AB529F0008CFD2D /* LDButton.m */,
+				02166BBE1AB529A7008CFD2D /* AppDelegate.h */,
+				02166BBF1AB529A7008CFD2D /* AppDelegate.m */,
+				02166BC11AB529A7008CFD2D /* ViewController.h */,
+				02166BC21AB529A7008CFD2D /* ViewController.m */,
+				02166BC41AB529A7008CFD2D /* Main.storyboard */,
+				02166BC71AB529A7008CFD2D /*  image.xcassets */,
+				02166BC91AB529A7008CFD2D /* LaunchScreen.xib */,
+				02166BBA1AB529A7008CFD2D /* Supporting Files */,
+			);
+			path = LDButton;
+			sourceTree = "<group>";
+		};
+		02166BBA1AB529A7008CFD2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02166BBB1AB529A7008CFD2D /* Info.plist */,
+				02166BBC1AB529A7008CFD2D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		02166BD31AB529A7008CFD2D /* LDButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				02166BD61AB529A7008CFD2D /* LDButtonTests.m */,
+				02166BD41AB529A7008CFD2D /* Supporting Files */,
+			);
+			path = LDButtonTests;
+			sourceTree = "<group>";
+		};
+		02166BD41AB529A7008CFD2D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				02166BD51AB529A7008CFD2D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02166BB61AB529A7008CFD2D /* LDButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02166BDA1AB529A7008CFD2D /* Build configuration list for PBXNativeTarget "LDButton" */;
+			buildPhases = (
+				02166BB31AB529A7008CFD2D /* Sources */,
+				02166BB41AB529A7008CFD2D /* Frameworks */,
+				02166BB51AB529A7008CFD2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LDButton;
+			productName = LDButton;
+			productReference = 02166BB71AB529A7008CFD2D /* LDButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02166BCF1AB529A7008CFD2D /* LDButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02166BDD1AB529A7008CFD2D /* Build configuration list for PBXNativeTarget "LDButtonTests" */;
+			buildPhases = (
+				02166BCC1AB529A7008CFD2D /* Sources */,
+				02166BCD1AB529A7008CFD2D /* Frameworks */,
+				02166BCE1AB529A7008CFD2D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02166BD21AB529A7008CFD2D /* PBXTargetDependency */,
+			);
+			name = LDButtonTests;
+			productName = LDButtonTests;
+			productReference = 02166BD01AB529A7008CFD2D /* LDButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02166BAF1AB529A7008CFD2D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = lidi;
+				TargetAttributes = {
+					02166BB61AB529A7008CFD2D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					02166BCF1AB529A7008CFD2D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 02166BB61AB529A7008CFD2D;
+					};
+				};
+			};
+			buildConfigurationList = 02166BB21AB529A7008CFD2D /* Build configuration list for PBXProject "LDButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02166BAE1AB529A7008CFD2D;
+			productRefGroup = 02166BB81AB529A7008CFD2D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02166BB61AB529A7008CFD2D /* LDButton */,
+				02166BCF1AB529A7008CFD2D /* LDButtonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02166BB51AB529A7008CFD2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02166BC61AB529A7008CFD2D /* Main.storyboard in Resources */,
+				02166BCB1AB529A7008CFD2D /* LaunchScreen.xib in Resources */,
+				02166BC81AB529A7008CFD2D /*  image.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02166BCE1AB529A7008CFD2D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02166BB31AB529A7008CFD2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02166BC31AB529A7008CFD2D /* ViewController.m in Sources */,
+				02166BE21AB529F0008CFD2D /* LDButton.m in Sources */,
+				02166BC01AB529A7008CFD2D /* AppDelegate.m in Sources */,
+				02166BBD1AB529A7008CFD2D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02166BCC1AB529A7008CFD2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02166BD71AB529A7008CFD2D /* LDButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02166BD21AB529A7008CFD2D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02166BB61AB529A7008CFD2D /* LDButton */;
+			targetProxy = 02166BD11AB529A7008CFD2D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02166BC41AB529A7008CFD2D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02166BC51AB529A7008CFD2D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02166BC91AB529A7008CFD2D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02166BCA1AB529A7008CFD2D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02166BD81AB529A7008CFD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02166BD91AB529A7008CFD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02166BDB1AB529A7008CFD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LDButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		02166BDC1AB529A7008CFD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LDButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		02166BDE1AB529A7008CFD2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LDButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDButton.app/LDButton";
+			};
+			name = Debug;
+		};
+		02166BDF1AB529A7008CFD2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LDButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LDButton.app/LDButton";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02166BB21AB529A7008CFD2D /* Build configuration list for PBXProject "LDButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02166BD81AB529A7008CFD2D /* Debug */,
+				02166BD91AB529A7008CFD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02166BDA1AB529A7008CFD2D /* Build configuration list for PBXNativeTarget "LDButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02166BDB1AB529A7008CFD2D /* Debug */,
+				02166BDC1AB529A7008CFD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		02166BDD1AB529A7008CFD2D /* Build configuration list for PBXNativeTarget "LDButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02166BDE1AB529A7008CFD2D /* Debug */,
+				02166BDF1AB529A7008CFD2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02166BAF1AB529A7008CFD2D /* Project object */;
+}
